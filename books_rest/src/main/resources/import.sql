@@ -1,0 +1,5 @@
+insert into book(id, isbn, title, price) values (1, 'isbn1', 'libro1', 1)
+insert into book(id, isbn, title, price) values (2, 'isbn2', 'libro2', 2)
+insert into book(id, isbn, title, price) values (3, 'isbn3', 'libro3', 3)
+insert into book(id, isbn, title, price) values (4, 'isbn4', 'libro4', 4)
+insert into book(id, isbn, title, price) values (5, 'isbn5', 'libro5', 5)
