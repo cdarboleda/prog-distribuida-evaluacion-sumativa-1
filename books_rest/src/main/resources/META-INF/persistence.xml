@@ -15,10 +15,11 @@
             <property name="eclipselink.jdbc.url" value="jdbc:sqlite:mem:db1;DB_CLOSE_DELAY=-1"/>
             <property name="eclipselink.jdbc.user" value="sa"/>
             <property name="eclipselink.jdbc.password" value=""/>
+            <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>-->
 
             <!--Importando sql desde persistence-->
-            <property name="eclipselink.schema-generation.database.action" value="drop-and-create"/>
-            <property name="eclipselink.sql-load-script-source" value="import.sql"/>
+            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+            <property name="jakarta.persistence.sql-load-script-source" value="import.sql"/>
 
             <!--<property name="hibernate.show_sql" value="true"/>-->
             <!--<property name="hibernate.hbm2ddl.auto" value="update"/>-->
