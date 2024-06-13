@@ -11,14 +11,14 @@
 
 
         <properties>
-            <property name="jakarta.persistence.jdbc.driver" value="org.sqlite.JDBC"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:sqlite:mem:db1;DB_CLOSE_DELAY=-1"/>
-            <property name="jakarta.persistence.jdbc.user" value="sa"/>
-            <property name="jakarta.persistence.jdbc.password" value=""/>
+            <property name="eclipselink.jdbc.driver" value="org.sqlite.JDBC"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:sqlite:mem:db1;DB_CLOSE_DELAY=-1"/>
+            <property name="eclipselink.jdbc.user" value="sa"/>
+            <property name="eclipselink.jdbc.password" value=""/>
 
             <!--Importando sql desde persistence-->
-            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
-            <property name="jakarta.persistence.sql-load-script-source" value="import.sql"/>
+            <property name="eclipselink.schema-generation.database.action" value="drop-and-create"/>
+            <property name="eclipselink.sql-load-script-source" value="import.sql"/>
 
             <!--<property name="hibernate.show_sql" value="true"/>-->
             <!--<property name="hibernate.hbm2ddl.auto" value="update"/>-->

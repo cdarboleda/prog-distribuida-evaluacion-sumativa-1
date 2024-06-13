@@ -12,7 +12,6 @@ repositories {
 
 dependencies {
     implementation("org.apache.openwebbeans:openwebbeans-impl:4.0.2")
-    implementation("org.apache.openwebbeans:openwebbeans-spi:4.0.2")
     implementation("org.eclipse.persistence:eclipselink:4.0.3")
 
     implementation("io.helidon.webserver:helidon-webserver:4.0.9")
